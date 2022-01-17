@@ -1,16 +1,20 @@
-import React from 'react';
-import Bluebutton from './UI/Buttons/BlueButton/BlueButton';
-import Darkbutton from './UI/Buttons/DarkButton/DarkButton';
-import LightButton from './UI/Buttons/LightButton/LightButton';
+import React from "react";
+import Bluebutton from "./UI/Buttons/BlueButton/BlueButton";
+import Darkbutton from "./UI/Buttons/DarkButton/DarkButton";
+import LightButton from "./UI/Buttons/LightButton/LightButton";
+import RedButton from "./UI/Buttons/RedButton/RedButton";
+import Modal from "./UI/Modals/Modal";
 
 const Componentslist = () => {
-    return (
-        <div>
-            <Bluebutton title="Tweet" />
-            <Darkbutton title="Tweet" />
-            <LightButton title="Tweet" />
-        </div>
-    );
-}
+  return (
+    <div>
+      <Bluebutton title="Tweet" />
+      <Darkbutton title="Tweet" />
+      <LightButton title="Tweet" />
+      <RedButton title="Discard" />
+      <Modal title="Discard" />
+    </div>
+  );
+};
 
 export default Componentslist;
