@@ -4,6 +4,8 @@ import Darkbutton from "./UI/Buttons/DarkButton/DarkButton";
 import LightButton from "./UI/Buttons/LightButton/LightButton";
 import RedButton from "./UI/Buttons/RedButton/RedButton";
 import GreyCard from "./UI/Cards/GreyCard/GreyCard";
+import RoundedCornerImage from "./UI/Images/RoundedCornerImage/RoundedCornerImage";
+import CircularImage from "./UI/Images/CircleImage/CircleImage";
 import Modal from "./UI/Modals/Modal";
 
 const Componentslist = () => {
@@ -15,6 +17,8 @@ const Componentslist = () => {
       <RedButton title="Discard" />
       <Modal title="Discard" />
       <GreyCard />
+      <RoundedCornerImage />
+      <CircularImage />
     </div>
   );
 };
