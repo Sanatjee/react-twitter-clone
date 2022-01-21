@@ -7,6 +7,7 @@ import GreyCard from "./UI/Cards/GreyCard/GreyCard";
 import RoundedCornerImage from "./UI/Images/RoundedCornerImage/RoundedCornerImage";
 import CircularImage from "./UI/Images/CircleImage/CircleImage";
 import Modal from "./UI/Modals/Modal";
+import UserList from "./Lists/Users/UserList";
 
 const Componentslist = () => {
   return (
@@ -19,6 +20,7 @@ const Componentslist = () => {
       <GreyCard />
       <RoundedCornerImage />
       <CircularImage />
+      <UserList />
     </div>
   );
 };

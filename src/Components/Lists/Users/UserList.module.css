@@ -1,0 +1,33 @@
+.userListContainer {
+  display: flex;
+  background-color: #eff1f1;
+  margin: 10px;
+}
+
+.userListContainer:hover {
+  background-color: #dedfdf;
+}
+
+.Info {
+  width: 100%;
+  margin-left: 15px;
+}
+.Info p {
+}
+
+.Info p:hover {
+  cursor: pointer;
+}
+
+.Info p:first-child {
+  display: flex;
+}
+
+.Info p:first-child:hover {
+  text-decoration: underline;
+}
+
+.action {
+  width: 100%;
+  text-align: end;
+}

@@ -1,5 +1,4 @@
 .button {
-  padding: 20px 85px 20px 85px;
   border: none;
   color: #fff;
   background-color: #0f1419;
@@ -7,6 +6,17 @@
   border-radius: 50px;
   font-size: 15px;
   font-weight: bold;
+}
+
+.btnSm {
+  padding: 10px 25px 10px 25px;
+}
+
+.btnMd {
+  padding: 20px 85px 20px 85px;
+}
+
+.btnLg {
 }
 
 .button hover {
