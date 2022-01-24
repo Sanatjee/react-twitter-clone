@@ -13,9 +13,9 @@ const UserList = () => {
                     <CircleImage />
                 </div>
                 <div className={classes.Info}>
-                    <p>Sanat Gawade <span> Verified</span></p>
-                    <p className="userName">@SanatJee</p>
-                    <p>Promoted</p>
+                    <p className="bold-500">Sanat Gawade <span> Verified</span></p>
+                    <p className="greyText">@SanatJee</p>
+                    <p className={classes.promoted}>Promoted</p>
                 </div>
                 <div className={classes.action}>
                     <Darkbutton

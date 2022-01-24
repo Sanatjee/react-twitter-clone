@@ -8,6 +8,8 @@ import RoundedCornerImage from "./UI/Images/RoundedCornerImage/RoundedCornerImag
 import CircularImage from "./UI/Images/CircleImage/CircleImage";
 import Modal from "./UI/Modals/Modal";
 import UserList from "./Lists/Users/UserList";
+import Happening from "./Lists/Happening/Happening";
+import Tweet from "./Lists/Tweet/Tweet";
 
 const Componentslist = () => {
   return (
@@ -21,6 +23,8 @@ const Componentslist = () => {
       <RoundedCornerImage />
       <CircularImage />
       <UserList />
+      <Happening />
+      <Tweet />
     </div>
   );
 };
